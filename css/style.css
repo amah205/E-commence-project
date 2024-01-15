@@ -692,7 +692,7 @@ header{
     /*----SPECIAL-SECTION---*/
     .special{
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         padding: 10px 0px;
         background: var(--flashlight-color);
         position: relative;
@@ -706,17 +706,19 @@ header{
     
     .special-flex{
         display: flex;
+        flex-direction: column-reverse;
         align-items:center ;
         justify-content: space-between !important;
         width: 100%;
-        margin-top: 80px;
+        margin-top: 40px;
     }
     
     .special-div1{
-        width: 50%;
+        width: 80%;
         position: absolute;
-        bottom: 20;
+        bottom: 20%;
         z-index: 2;
+        text-align: center;
     }
     
     .special-div1 h2{
@@ -730,8 +732,9 @@ header{
     
     .special-div2{
         width: 100%;
-        position: relative;
+        position: absolute;
         right: 0;
+        top: 10%;
         z-index: 1;
     }
     
@@ -753,7 +756,7 @@ header{
     .footer{
         width: 100%;
         height: 120vh;
-        padding: 40px 0px;
+        padding: 5px 0px;
     }
     
     .footer h2{
@@ -809,6 +812,7 @@ header{
     .footer-mobile{
         width: 100%;
         transform: translateY(-20%);
+        padding: 0px 20px;
     }
     
     .footer-mobile h3{
@@ -824,5 +828,9 @@ header{
         font-family: var(--second-font);
         font-size: 1.8rem;
         margin: 0 auto;
+    }
+
+    .footer-col1{
+        padding: 0px 20px;
     }
 }
