@@ -714,9 +714,9 @@ header{
     }
     
     .special-div1{
-        width: 80%;
+        width: 90%;
         position: absolute;
-        bottom: 20%;
+        bottom: 13%;
         z-index: 2;
         text-align: center;
     }
